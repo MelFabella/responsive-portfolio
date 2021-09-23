@@ -12,7 +12,7 @@ h1 {
 }
 
 ul {
-  float: left;
+  float: right;
 }
 
 li {
@@ -20,6 +20,7 @@ li {
   margin-right: 25px;
   text-align: center;
   background-color: #28587B;
+  border-radius: 5px;  
 }
 
 a {
@@ -41,7 +42,7 @@ a {
 
 @media only screen and (max-width: 800px) {
   h1 {
-
+    display: none;
   }
 
   li {
@@ -52,5 +53,6 @@ a {
     width: 100px;
     padding: 5px 0;
     font-size: 16px;
+    text-shadow: 2px 2px 0 #bbbbbb;
   }
 }
